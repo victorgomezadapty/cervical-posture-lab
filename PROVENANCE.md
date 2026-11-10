@@ -38,4 +38,4 @@ reports, rather than fails, when blocked. The files in `data/raw/` are never edi
    stops if they do not match.
 3. Outputs are aggregates. No row level data and no questionnaire wording are written to outputs.
 4. Attribution as in `DATA_LICENSE.md` must accompany any reuse of the data or derived results.
-5. Status: public. The analysis repository is public at https://github.com/victorgomezadapty/cervical-posture-lab. Kaggle links will be added when they are live.
+5. Status: public. The analysis repository is public at https://github.com/victorgomezadapty/cervical-posture-lab. The same public re-analysis is on Kaggle. Dataset: https://www.kaggle.com/datasets/vctorandrsgmezlpez/forward-head-posture-with-and-without-neck-pain. Notebook: https://www.kaggle.com/code/vctorandrsgmezlpez/cervical-posture-lab-cva-neck-pain-re-analysis.

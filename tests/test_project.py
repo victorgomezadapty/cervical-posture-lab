@@ -179,14 +179,24 @@ def test_title_and_short_name():
 
 def test_status_public():
     rd = text("README.md")
+    kaggle_dataset = "https://www.kaggle.com/datasets/vctorandrsgmezlpez/forward-head-posture-with-and-without-neck-pain"
+    kaggle_notebook = "https://www.kaggle.com/code/vctorandrsgmezlpez/cervical-posture-lab-cva-neck-pain-re-analysis"
     assert "**Status: public.**" in rd
     assert "https://github.com/victorgomezadapty/cervical-posture-lab" in rd
-    assert "Kaggle links will be added when they are live." in rd
+    assert kaggle_dataset in rd
+    assert kaggle_notebook in rd
+    assert "will be added when they are live" not in rd.lower()
+    assert {u.rstrip(".,);") for u in re.findall(r"https://www\.kaggle\.com/\S+", rd)} == {kaggle_dataset, kaggle_notebook}
+    prov = text("PROVENANCE.md")
+    assert "https://github.com/victorgomezadapty/cervical-posture-lab" in prov
+    assert kaggle_dataset in prov
+    assert kaggle_notebook in prov
+    assert "will be added when they are live" not in prov.lower()
+    assert {u.rstrip(".,);") for u in re.findall(r"https://www\.kaggle\.com/\S+", prov)} == {kaggle_dataset, kaggle_notebook}
     res = text("RESULTS.md")
     assert "**Status: public.**" in res
     assert "https://github.com/victorgomezadapty/cervical-posture-lab" in res
     assert "kaggle.com" not in res.lower()
-    assert "kaggle.com/datasets" not in rd and "kaggle.com/code" not in rd
 
 
 def test_paper_cited_only():
