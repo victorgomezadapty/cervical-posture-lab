@@ -1,0 +1,9 @@
+position,term,model,estimate,se_hc3,ci95_low,ci95_high,p,n
+sitting,woman vs man,unadjusted,-2.83118,1.16141,-5.10751,-0.554854,0.0147809,92
+sitting,BMI per 1 kg/m2,unadjusted,-0.489949,0.147613,-0.779266,-0.200632,0.000902971,92
+sitting,woman vs man,mutually adjusted with age,-2.43464,1.15292,-4.69432,-0.174957,0.0347109,92
+sitting,BMI per 1 kg/m2,mutually adjusted with age,-0.549533,0.154504,-0.852356,-0.24671,0.000375476,92
+standing,woman vs man,unadjusted,-2.19498,0.977768,-4.11137,-0.278592,0.0247752,92
+standing,BMI per 1 kg/m2,unadjusted,-0.561936,0.120574,-0.798256,-0.325616,3.15408e-06,92
+standing,woman vs man,mutually adjusted with age,-2.08505,0.984765,-4.01515,-0.154944,0.0342339,92
+standing,BMI per 1 kg/m2,mutually adjusted with age,-0.583,0.126357,-0.830656,-0.335344,3.95191e-06,92

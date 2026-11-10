@@ -1,0 +1,9 @@
+flag,severity,item,deposit_says,observed,handling
+F1,main,Height unit,SPSS label 'Height (cm)'; readme 'Height (m)',values 1.50 to 1.92; BMI equals weight/height^2 with height in metres (max abs diff 0.0e+00),analysed as metres (HeightM in memory); .sav label left as deposited
+F2,main,Standing_Evaluator2 label,SPSS label 'Craniocervical angle measurement taken by evaluator 1 in the standing position',column name says evaluator 2; label repeats evaluator 1,column name followed; label left as deposited
+F3,main,Readme variable list incomplete,readme lists 19 variables but names fewer items,"ID, ChronicNeckPain and VAS_neck_0to100 not listed; four CVA columns (evaluator by position) covered only by one entry 'CVA (grades)'","columns interpreted from names, SPSS labels and value labels; documented in t01"
+F4,main,ID gaps,no description of ID,"92 unique IDs from 1 to 103; 11 numbers absent (16, 58, 60, 61, 63, 66, 67, 68, 69, 84, 102)","ID treated as a study code only; reasons for gaps unknown, not inferred"
+F5,minor,Angle name,SPSS labels say 'Craniocervical angle'; readme says craniovertebral angle (CVA),same four columns,"read as CVA, as in the readme and record title"
+F6,minor,Readme citation line,"readme citation names three people, including the co-investigator",Zenodo and DataCite list two creators,official two creator citation used; co-investigator credited as contributor
+F7,minor,NDI scale,"readme: NDI, 0 to 100","NDI values 2 to 40, all even","analysed as deposited on the stated 0 to 100 scale; even values are consistent with a doubled score (inferred, not stated)"
+F8,minor,CVA resolution,no description of how each value was obtained,every CVA value is a multiple of 1/3 degree,"consistent with each value being a mean of three readings (inferred, not stated); agreement results refer to the deposited values"

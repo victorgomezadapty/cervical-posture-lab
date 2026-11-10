@@ -1,0 +1,7 @@
+check,rows_flagged,rows_checked
+IPAQ_categorized agrees with IPAQ_total thresholds,0,78
+chronic neck pain rows with no neck pain in the last year (NMQ),1,50
+asymptomatic rows with neck pain in the last year (NMQ),4,42
+asymptomatic rows with VAS above 0,4,42
+chronic neck pain rows with VAS equal to 0,4,50
+duplicate IDs,0,92

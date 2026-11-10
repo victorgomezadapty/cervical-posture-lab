@@ -1,0 +1,17 @@
+variable,category,group,k,n,pct,ci95_low_pct,ci95_high_pct
+female,women,asymptomatic,26,42,61.9048,46.814,75.0003
+female,women,chronic neck pain,36,50,72,58.3349,82.5258
+NMQ_neck_lastyear,NMQ neck pain last year: yes,asymptomatic,4,42,9.52381,3.76622,22.0651
+NMQ_neck_lastyear,NMQ neck pain last year: yes,chronic neck pain,49,50,98,89.5046,99.6461
+NMQ_neck_lastmonth,NMQ neck pain last month: yes,asymptomatic,4,42,9.52381,3.76622,22.0651
+NMQ_neck_lastmonth,NMQ neck pain last month: yes,chronic neck pain,49,50,98,89.5046,99.6461
+NMQ_neck_last7days,NMQ neck pain last 7 days: yes,asymptomatic,4,42,9.52381,3.76622,22.0651
+NMQ_neck_last7days,NMQ neck pain last 7 days: yes,chronic neck pain,46,50,92,81.1618,96.845
+NMQ_neck_today,NMQ neck pain today: yes,asymptomatic,3,42,7.14286,2.45904,19.0094
+NMQ_neck_today,NMQ neck pain today: yes,chronic neck pain,28,50,56,42.306,68.8378
+IPAQ_categorized,IPAQ low,asymptomatic,2,35,5.71429,1.58132,18.6071
+IPAQ_categorized,IPAQ low,chronic neck pain,4,43,9.30233,3.67716,21.6027
+IPAQ_categorized,IPAQ moderate,asymptomatic,19,35,54.2857,38.1897,69.534
+IPAQ_categorized,IPAQ moderate,chronic neck pain,21,43,48.8372,34.6174,63.2477
+IPAQ_categorized,IPAQ high,asymptomatic,14,35,40,25.5507,56.4273
+IPAQ_categorized,IPAQ high,chronic neck pain,18,43,41.8605,28.3846,56.6714
