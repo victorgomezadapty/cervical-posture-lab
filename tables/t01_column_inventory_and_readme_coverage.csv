@@ -1,0 +1,20 @@
+column,spss_label,spss_value_labels,spss_format,readme_coverage,n_present,n_missing,min,max
+ID,ID,,F11.0,not listed,92,0,1,103
+age,age,,F8.2,listed: Age (years),92,0,18.3765,32.9227
+Sex,sex,0 = man; 1 = woman,F7.0,"listed: sex (male/female), codes not given",92,0,0,1
+Weight,Weight (kg),,F8.2,listed: Weight (kg),92,0,48,125
+Height,Height (cm),,F8.2,listed: Height (m),92,0,1.5,1.92
+BMI,Body Mass Index,,F8.2,listed: BMI (kg/m2),92,0,17.7557,40.8163
+ChronicNeckPain,"[question wording, not reproduced]",0 = No; 1 = Sí,F3.0,not listed (group variable only described in prose),92,0,0,1
+NMQ_neck_lastyear,"[question wording, not reproduced]",0 = no; 1 = si,F8.0,listed as one NMQ item set,92,0,0,1
+NMQ_neck_lastmonth,"[question wording, not reproduced]",0 = no; 1 = si,F8.0,listed as one NMQ item set,92,0,0,1
+NMQ_neck_today,"[question wording, not reproduced]",0 = no; 1 = si,F8.0,listed as one NMQ item set,92,0,0,1
+NMQ_neck_last7days,"[question wording, not reproduced]",0 = no; 1 = si,F8.0,listed as one NMQ item set,92,0,0,1
+VAS_neck_0to100,Neck VAS in the past week (0 to 100),,F8.0,not listed,92,0,0,79
+NDI_total,Neck Disability Index (total),,F8.2,"listed: NDI, scale given as 0 to 100",48,44,2,40
+IPAQ_total,Total MET score = sum of IPAQ_VIGOROUS + IPAQ_MODERATE + IPAQ_WALKING,,F8.0,listed: IPAQ total (MET minute/week),78,14,297,18768
+IPAQ_categorized,Categorization of total IPAQ scores,1 = Low level (<600); 2 = Moderate level (600-3000); 3 = High level (>3000),F8.0,listed: IPAQ categorized,78,14,1,3
+Sitting_Evaluator1,Craniocervical angle measurement taken by evaluator 1 in the sitting position,,F8.2,"only as one entry 'CVA (grades)', evaluator and position not described",92,0,37.6667,63.3333
+Standing_Evaluator1,Craniocervical angle measurement taken by evaluator 1 in the standing position,,F8.2,"only as one entry 'CVA (grades)', evaluator and position not described",92,0,37.6667,61.6667
+Sitting_Evaluator2,Craniocervical angle measurement taken by evaluator 2 in the sitting position,,F8.2,"only as one entry 'CVA (grades)', evaluator and position not described",92,0,37.6667,63.6667
+Standing_Evaluator2,Craniocervical angle measurement taken by evaluator 1 in the standing position,,F8.2,"only as one entry 'CVA (grades)', evaluator and position not described",92,0,36.6667,62

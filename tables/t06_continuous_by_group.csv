@@ -1,0 +1,39 @@
+variable,group,n,mean,sd,ci95_low,ci95_high,median,q1,q3
+age,asymptomatic,42,23.3533,2.7869,22.4849,24.2218,22.8446,21.2327,25.1198
+age,chronic neck pain,50,23.5763,2.94542,22.7393,24.4134,23.1759,21.3142,25.4504
+age,"difference, pain minus asymptomatic (Welch)",92,0.222999,,-0.966649,1.41265,,,
+Weight,asymptomatic,42,67.3095,14.4382,62.8103,71.8088,65,58.5,73.5
+Weight,chronic neck pain,50,69.31,14.3843,65.222,73.398,66,59.625,78
+Weight,"difference, pain minus asymptomatic (Welch)",92,2.00048,,-3.99573,7.99668,,,
+HeightM,asymptomatic,42,1.66905,0.0900896,1.64097,1.69712,1.655,1.6,1.745
+HeightM,chronic neck pain,50,1.6848,0.105796,1.65473,1.71487,1.67,1.6,1.7575
+HeightM,"difference, pain minus asymptomatic (Welch)",92,0.0157524,,-0.0248216,0.0563263,,,
+BMI,asymptomatic,42,24.0611,4.28537,22.7257,25.3965,23.4375,21.7329,25.0568
+BMI,chronic neck pain,50,24.3186,3.99778,23.1824,25.4547,23.3959,21.5265,26.223
+BMI,"difference, pain minus asymptomatic (Welch)",92,0.257484,,-1.47233,1.9873,,,
+VAS_neck_0to100,asymptomatic,42,4.83333,15.5358,-0.00796985,9.67464,0,0,0
+VAS_neck_0to100,chronic neck pain,50,43.24,22.6487,36.8033,49.6767,52,26,60
+VAS_neck_0to100,"difference, pain minus asymptomatic (Welch)",92,38.4067,,30.4544,46.3589,,,
+NDI_total,asymptomatic,0,,,,,,,
+NDI_total,chronic neck pain,48,16,8.30278,13.5891,18.4109,16,10,20.5
+IPAQ_total,asymptomatic,35,3426.63,3097.85,2362.48,4490.78,2622,1519.5,4167
+IPAQ_total,chronic neck pain,43,3246.8,3295.89,2232.48,4261.13,2628,1281,4015.5
+IPAQ_total,"difference, pain minus asymptomatic (Welch)",78,-179.826,,-1625.93,1266.28,,,
+CVA_sitting_mean,asymptomatic,42,50.373,5.60243,48.6272,52.1189,49.75,46.7083,53.6667
+CVA_sitting_mean,chronic neck pain,50,50.3467,5.04221,48.9137,51.7796,50.75,46.7917,52.6667
+CVA_sitting_mean,"difference, pain minus asymptomatic (Welch)",92,-0.0263492,,-2.25504,2.20235,,,
+CVA_standing_mean,asymptomatic,42,51.7143,5.09241,50.1274,53.3012,52.1667,48.0833,54.7917
+CVA_standing_mean,chronic neck pain,50,50.98,4.38905,49.7326,52.2274,50.9167,48.0833,53.25
+CVA_standing_mean,"difference, pain minus asymptomatic (Welch)",92,-0.734286,,-2.72647,1.2579,,,
+Sitting_Evaluator1,asymptomatic,42,50.1429,5.70985,48.3635,51.9222,49.5,46.1667,53.6667
+Sitting_Evaluator1,chronic neck pain,50,50.0933,5.14508,48.6311,51.5555,50.1667,46.6667,52.3333
+Sitting_Evaluator1,"difference, pain minus asymptomatic (Welch)",92,-0.0495238,,-2.32204,2.22299,,,
+Sitting_Evaluator2,asymptomatic,42,50.6032,5.66367,48.8383,52.3681,50.5,47.0833,54.1667
+Sitting_Evaluator2,chronic neck pain,50,50.6,4.97796,49.1853,52.0147,50.8333,46.75,53
+Sitting_Evaluator2,"difference, pain minus asymptomatic (Welch)",92,-0.0031746,,-2.23542,2.22907,,,
+Standing_Evaluator1,asymptomatic,42,51.746,5.08668,50.1609,53.3312,52,48.25,55.3333
+Standing_Evaluator1,chronic neck pain,50,50.88,4.37772,49.6359,52.1241,51.1667,48.0833,52.6667
+Standing_Evaluator1,"difference, pain minus asymptomatic (Welch)",92,-0.866032,,-2.85488,1.12282,,,
+Standing_Evaluator2,asymptomatic,42,51.6825,5.21721,50.0567,53.3083,51.8333,48.5833,54.5833
+Standing_Evaluator2,chronic neck pain,50,51.08,4.44496,49.8168,52.3432,51.1667,48,53.8333
+Standing_Evaluator2,"difference, pain minus asymptomatic (Welch)",92,-0.60254,,-2.63477,1.42969,,,

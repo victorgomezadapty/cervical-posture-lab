@@ -1,0 +1,502 @@
+{
+  "project": "Cervical Posture Lab",
+  "status": "public",
+  "dataset": {
+    "title": "Forward Head Posture in individuals with and without chronic neck pain",
+    "version": "Final data from study \"Assessment of forward head posture in individuals with and without chronic neck pain: a cross-sectional study\"",
+    "record": "https://zenodo.org/records/17550555",
+    "doi": "10.5281/zenodo.17550555",
+    "concept_doi": "10.5281/zenodo.17550554",
+    "issued": "2025-11-20",
+    "license": "cc-by-4.0",
+    "creators": [
+      "Rodríguez-Romero, Beatriz",
+      "Tunas-Maceiras, Isabel"
+    ],
+    "contributors": [
+      "Ramos-Gómez, Fernando"
+    ],
+    "citation": "Rodríguez-Romero, B., and Tunas-Maceiras, I. (2025). Forward Head Posture in individuals with and without chronic neck pain [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.17550555",
+    "files": {
+      "Database_Forward Head Posture and Neck Pain.sav": {
+        "md5": "e835bd09dea8ec8bfa73e91e69bac380",
+        "bytes": 10039
+      },
+      "readme_Dataset Forward Head Posture and Neck Pain.txt": {
+        "md5": "9b0c87e5f31e8d6fbba7bd43b924d072",
+        "bytes": 5985
+      }
+    }
+  },
+  "companion_paper": {
+    "citation": "Tunas-Maceiras I, Ramos-Gómez F, Rodríguez-Romero B. Assessment of forward head posture in individuals with and without chronic neck pain: A cross-sectional study. Gait & Posture. 2026;125:110093. https://doi.org/10.1016/j.gaitpost.2026.110093",
+    "doi": "10.1016/j.gaitpost.2026.110093",
+    "license": "CC BY-NC 4.0",
+    "use": "cited only; no text, tables, figures or reported coefficients reused"
+  },
+  "environment": {
+    "python": "3.13.5",
+    "pandas": "3.1.1",
+    "numpy": "2.5.4"
+  },
+  "n_participants": 92,
+  "n_columns": 19,
+  "groups": {
+    "asymptomatic": 42,
+    "chronic neck pain": 50
+  },
+  "sex": {
+    "women": 62,
+    "men": 30
+  },
+  "age_range": [
+    18.38,
+    32.92
+  ],
+  "id": {
+    "unique": 92,
+    "min": 1,
+    "max": 103,
+    "absent_numbers": [
+      16,
+      58,
+      60,
+      61,
+      63,
+      66,
+      67,
+      68,
+      69,
+      84,
+      102
+    ]
+  },
+  "audit": {
+    "flags": {
+      "F1": {
+        "severity": "main",
+        "item": "Height unit"
+      },
+      "F2": {
+        "severity": "main",
+        "item": "Standing_Evaluator2 label"
+      },
+      "F3": {
+        "severity": "main",
+        "item": "Readme variable list incomplete"
+      },
+      "F4": {
+        "severity": "main",
+        "item": "ID gaps"
+      },
+      "F5": {
+        "severity": "minor",
+        "item": "Angle name"
+      },
+      "F6": {
+        "severity": "minor",
+        "item": "Readme citation line"
+      },
+      "F7": {
+        "severity": "minor",
+        "item": "NDI scale"
+      },
+      "F8": {
+        "severity": "minor",
+        "item": "CVA resolution"
+      }
+    },
+    "main_flags": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ],
+    "height_unit": {
+      "max_abs_diff_bmi_height_in_m": 0.0,
+      "height_range_as_deposited": [
+        1.5,
+        1.92
+      ],
+      "bmi_deposited_range": [
+        17.755682,
+        40.816327
+      ],
+      "bmi_if_height_read_as_cm_range": [
+        177556.818182,
+        408163.265306
+      ],
+      "bmi_if_height_read_as_cm_median": 234225.045645
+    },
+    "readme_under_specified_columns": [
+      "ID",
+      "ChronicNeckPain",
+      "VAS_neck_0to100",
+      "Sitting_Evaluator1",
+      "Sitting_Evaluator2",
+      "Standing_Evaluator1",
+      "Standing_Evaluator2"
+    ],
+    "consistency_checks": {
+      "IPAQ_categorized agrees with IPAQ_total thresholds": [
+        0,
+        78
+      ],
+      "chronic neck pain rows with no neck pain in the last year (NMQ)": [
+        1,
+        50
+      ],
+      "asymptomatic rows with neck pain in the last year (NMQ)": [
+        4,
+        42
+      ],
+      "asymptomatic rows with VAS above 0": [
+        4,
+        42
+      ],
+      "chronic neck pain rows with VAS equal to 0": [
+        4,
+        50
+      ],
+      "duplicate IDs": [
+        0,
+        92
+      ]
+    },
+    "deposited_files_modified": false
+  },
+  "missingness": {
+    "NDI_total": {
+      "asymptomatic_missing": 42,
+      "chronic_neck_pain_missing": 2,
+      "present": 48
+    },
+    "IPAQ_total_missing": 14,
+    "IPAQ_categorized_missing": 14,
+    "IPAQ_missing_by_group": {
+      "asymptomatic": 7,
+      "chronic neck pain": 7
+    },
+    "VAS_missing": 0,
+    "other_columns_complete": 16
+  },
+  "primary_contrasts": {
+    "sitting|unadjusted": {
+      "estimate": -0.026349,
+      "se_hc3": 1.133313,
+      "ci95_low": -2.247601,
+      "ci95_high": 2.194903,
+      "p": 0.981451,
+      "p_holm": 1.0
+    },
+    "sitting|adjusted age, sex, BMI": {
+      "estimate": 0.287422,
+      "se_hc3": 1.072753,
+      "ci95_low": -1.815136,
+      "ci95_high": 2.389979,
+      "p": 0.788754,
+      "p_holm": 1.0
+    },
+    "standing|unadjusted": {
+      "estimate": -0.734286,
+      "se_hc3": 1.01274,
+      "ci95_low": -2.719219,
+      "ci95_high": 1.250647,
+      "p": 0.468422,
+      "p_holm": 1.0
+    },
+    "standing|adjusted age, sex, BMI": {
+      "estimate": -0.40633,
+      "se_hc3": 0.902062,
+      "ci95_low": -2.174338,
+      "ci95_high": 1.361678,
+      "p": 0.652389,
+      "p_holm": 1.0
+    }
+  },
+  "sensitivity_contrasts": {
+    "sitting|evaluator 1|unadjusted": {
+      "estimate": -0.049524,
+      "se_hc3": 1.155605,
+      "ci95_low": -2.314467,
+      "ci95_high": 2.21542,
+      "p": 0.965817,
+      "p_holm": 1.0
+    },
+    "sitting|evaluator 1|adjusted age, sex, BMI": {
+      "estimate": 0.294774,
+      "se_hc3": 1.050138,
+      "ci95_low": -1.763459,
+      "ci95_high": 2.353008,
+      "p": 0.77894,
+      "p_holm": 1.0
+    },
+    "sitting|evaluator 2|unadjusted": {
+      "estimate": -0.003175,
+      "se_hc3": 1.134938,
+      "ci95_low": -2.227613,
+      "ci95_high": 2.221264,
+      "p": 0.997768,
+      "p_holm": 1.0
+    },
+    "sitting|evaluator 2|adjusted age, sex, BMI": {
+      "estimate": 0.280069,
+      "se_hc3": 1.123776,
+      "ci95_low": -1.922492,
+      "ci95_high": 2.48263,
+      "p": 0.803189,
+      "p_holm": 1.0
+    },
+    "standing|evaluator 1|unadjusted": {
+      "estimate": -0.866032,
+      "se_hc3": 1.011035,
+      "ci95_low": -2.847624,
+      "ci95_high": 1.11556,
+      "p": 0.391677,
+      "p_holm": 1.0
+    },
+    "standing|evaluator 1|adjusted age, sex, BMI": {
+      "estimate": -0.550142,
+      "se_hc3": 0.893841,
+      "ci95_low": -2.302038,
+      "ci95_high": 1.201755,
+      "p": 0.538238,
+      "p_holm": 1.0
+    },
+    "standing|evaluator 2|unadjusted": {
+      "estimate": -0.60254,
+      "se_hc3": 1.033006,
+      "ci95_low": -2.627194,
+      "ci95_high": 1.422115,
+      "p": 0.5597,
+      "p_holm": 1.0
+    },
+    "standing|evaluator 2|adjusted age, sex, BMI": {
+      "estimate": -0.262518,
+      "se_hc3": 0.931456,
+      "ci95_low": -2.088139,
+      "ci95_high": 1.563103,
+      "p": 0.778069,
+      "p_holm": 1.0
+    }
+  },
+  "sex_bmi_associations": {
+    "sitting|woman vs man|unadjusted": {
+      "estimate": -2.831183,
+      "se_hc3": 1.161414,
+      "ci95_low": -5.107512,
+      "ci95_high": -0.554854,
+      "p": 0.014781
+    },
+    "sitting|BMI per 1 kg/m2|unadjusted": {
+      "estimate": -0.489949,
+      "se_hc3": 0.147613,
+      "ci95_low": -0.779266,
+      "ci95_high": -0.200632,
+      "p": 0.000903
+    },
+    "sitting|woman vs man|mutually adjusted with age": {
+      "estimate": -2.434639,
+      "se_hc3": 1.15292,
+      "ci95_low": -4.694322,
+      "ci95_high": -0.174957,
+      "p": 0.034711
+    },
+    "sitting|BMI per 1 kg/m2|mutually adjusted with age": {
+      "estimate": -0.549533,
+      "se_hc3": 0.154504,
+      "ci95_low": -0.852356,
+      "ci95_high": -0.24671,
+      "p": 0.000375
+    },
+    "standing|woman vs man|unadjusted": {
+      "estimate": -2.194982,
+      "se_hc3": 0.977768,
+      "ci95_low": -4.111372,
+      "ci95_high": -0.278592,
+      "p": 0.024775
+    },
+    "standing|BMI per 1 kg/m2|unadjusted": {
+      "estimate": -0.561936,
+      "se_hc3": 0.120574,
+      "ci95_low": -0.798256,
+      "ci95_high": -0.325616,
+      "p": 3e-06
+    },
+    "standing|woman vs man|mutually adjusted with age": {
+      "estimate": -2.085048,
+      "se_hc3": 0.984765,
+      "ci95_low": -4.015152,
+      "ci95_high": -0.154944,
+      "p": 0.034234
+    },
+    "standing|BMI per 1 kg/m2|mutually adjusted with age": {
+      "estimate": -0.583,
+      "se_hc3": 0.126357,
+      "ci95_low": -0.830656,
+      "ci95_high": -0.335344,
+      "p": 4e-06
+    }
+  },
+  "symptom_associations": {
+    "VAS_neck_0to100|sitting": {
+      "n": 50,
+      "estimate": -0.222395,
+      "ci95_low": -0.924586,
+      "ci95_high": 0.479796,
+      "p": 0.534762,
+      "r": -0.099896,
+      "r_ci95_low": -0.368015,
+      "r_ci95_high": 0.183561,
+      "rho": -0.056066,
+      "rho_ci95_low": -0.32948,
+      "rho_ci95_high": 0.226024
+    },
+    "VAS_neck_0to100|standing": {
+      "n": 50,
+      "estimate": 0.033316,
+      "ci95_low": -0.678939,
+      "ci95_high": 0.74557,
+      "p": 0.926954,
+      "r": 0.017192,
+      "r_ci95_low": -0.262416,
+      "r_ci95_high": 0.294137,
+      "rho": 0.024681,
+      "rho_ci95_low": -0.255467,
+      "rho_ci95_high": 0.301005
+    },
+    "NDI_total|sitting": {
+      "n": 48,
+      "estimate": -0.728395,
+      "ci95_low": -2.23683,
+      "ci95_high": 0.78004,
+      "p": 0.343929,
+      "r": -0.117806,
+      "r_ci95_low": -0.388927,
+      "r_ci95_high": 0.172095,
+      "rho": -0.135706,
+      "rho_ci95_low": -0.40538,
+      "rho_ci95_high": 0.155697
+    },
+    "NDI_total|standing": {
+      "n": 48,
+      "estimate": -0.015432,
+      "ci95_low": -1.645131,
+      "ci95_high": 1.614266,
+      "p": 0.985193,
+      "r": -0.00286,
+      "r_ci95_low": -0.286766,
+      "r_ci95_high": 0.281509,
+      "rho": -0.039471,
+      "rho_ci95_low": -0.320123,
+      "rho_ci95_high": 0.247551
+    }
+  },
+  "sitting_vs_standing": {
+    "n": 92,
+    "r": 0.827006,
+    "r_ci95_low": 0.749068,
+    "r_ci95_high": 0.882365,
+    "r_p": 0.0,
+    "rho": 0.82028,
+    "rho_ci95_low": 0.724709,
+    "rho_ci95_high": 0.884886,
+    "rho_p": 0.0,
+    "mean_diff_standing_minus_sitting": 0.956522,
+    "diff_ci95_low": 0.338093,
+    "diff_ci95_high": 1.57495
+  },
+  "agreement": {
+    "sitting": {
+      "icc_a1": 0.958478,
+      "icc_a1_ci95_low": 0.932853,
+      "icc_a1_ci95_high": 0.973707,
+      "icc_c1": 0.962065,
+      "sem_degrees": 1.037404,
+      "bias_e2_minus_e1": 0.485507,
+      "bias_ci95_low": 0.181677,
+      "bias_ci95_high": 0.789337,
+      "sd_diff": 1.46711,
+      "loa_low": -2.390029,
+      "loa_high": 3.361044,
+      "loa_low_ci95": [
+        -2.911158,
+        -1.8689
+      ],
+      "loa_high_ci95": [
+        2.839915,
+        3.882172
+      ],
+      "paired_t_p": 0.002051,
+      "abs_diff_within_1_degree_pct": 68.478261,
+      "abs_diff_within_2_degrees_pct": 91.304348,
+      "max_abs_diff": 8.0
+    },
+    "standing": {
+      "icc_a1": 0.96592,
+      "icc_a1_ci95_low": 0.948952,
+      "icc_a1_ci95_high": 0.97732,
+      "icc_c1": 0.965696,
+      "sem_degrees": 0.880094,
+      "bias_e2_minus_e1": 0.07971,
+      "bias_ci95_low": -0.178048,
+      "bias_ci95_high": 0.337468,
+      "sd_diff": 1.244641,
+      "loa_low": -2.359787,
+      "loa_high": 2.519207,
+      "loa_low_ci95": [
+        -2.801893,
+        -1.917681
+      ],
+      "loa_high_ci95": [
+        2.077101,
+        2.961313
+      ],
+      "paired_t_p": 0.540566,
+      "abs_diff_within_1_degree_pct": 80.434783,
+      "abs_diff_within_2_degrees_pct": 96.73913,
+      "max_abs_diff": 5.666667
+    }
+  },
+  "agreement_model": "ICC(A,1): two way random effects, absolute agreement, single measure (McGraw and Wong 1996; Shrout and Fleiss ICC(2,1)), McGraw and Wong F based 95% CI",
+  "figure_titles": {
+    "fig01_codebook_audit.png": "Codebook audit: mismatches flagged, none silently corrected",
+    "fig02_missingness.png": "Missing values by group: NDI present only in the pain group, IPAQ missing in 14 rows",
+    "fig03_cva_by_group.png": "CVA by group, mean of the two deposited evaluators (this re-analysis)",
+    "fig04_prespecified_contrasts.png": "Chronic neck pain minus asymptomatic, CVA in degrees (OLS, HC3, 95% CI)",
+    "fig05_evaluator_agreement.png": "Agreement of the two deposited evaluator columns (not a reconstruction of the paper's protocol)",
+    "fig06_symptom_associations.png": "Within chronic neck pain: CVA (mean of evaluators) against VAS and NDI, complete case"
+  },
+  "figure_footer": "Data: Rodríguez-Romero and Tunas-Maceiras 2025, Zenodo 10.5281/zenodo.17550555, CC BY 4.0. Public re-analysis.",
+  "outputs": {
+    "tables": [
+      "t01_column_inventory_and_readme_coverage.csv",
+      "t02_codebook_flags.csv",
+      "t03_consistency_checks.csv",
+      "t04_missingness_by_group.csv",
+      "t05_height_unit_check.csv",
+      "t06_continuous_by_group.csv",
+      "t07_proportions_by_group.csv",
+      "t08_primary_contrasts.csv",
+      "t09_evaluator_sensitivity_contrasts.csv",
+      "t10_sex_and_bmi_associations.csv",
+      "t11_symptom_associations_chronic_neck_pain.csv",
+      "t12_evaluator_agreement.csv",
+      "t13_sitting_vs_standing.csv"
+    ],
+    "figures": [
+      "fig01_codebook_audit.png",
+      "fig01_codebook_audit.webp",
+      "fig02_missingness.png",
+      "fig02_missingness.webp",
+      "fig03_cva_by_group.png",
+      "fig03_cva_by_group.webp",
+      "fig04_prespecified_contrasts.png",
+      "fig04_prespecified_contrasts.webp",
+      "fig05_evaluator_agreement.png",
+      "fig05_evaluator_agreement.webp",
+      "fig06_symptom_associations.png",
+      "fig06_symptom_associations.webp"
+    ]
+  }
+}

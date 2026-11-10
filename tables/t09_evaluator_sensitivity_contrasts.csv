@@ -1,0 +1,9 @@
+position,cva_source,column,model,estimate,se_hc3,ci95_low,ci95_high,p,n,p_holm,family
+sitting,evaluator 1,Sitting_Evaluator1,unadjusted,-0.0495238,1.1556,-2.31447,2.21542,0.965817,92,1,"sensitivity, outside primary family (own Holm across 8)"
+sitting,evaluator 1,Sitting_Evaluator1,"adjusted age, sex, BMI",0.294774,1.05014,-1.76346,2.35301,0.77894,92,1,"sensitivity, outside primary family (own Holm across 8)"
+sitting,evaluator 2,Sitting_Evaluator2,unadjusted,-0.0031746,1.13494,-2.22761,2.22126,0.997768,92,1,"sensitivity, outside primary family (own Holm across 8)"
+sitting,evaluator 2,Sitting_Evaluator2,"adjusted age, sex, BMI",0.280069,1.12378,-1.92249,2.48263,0.803189,92,1,"sensitivity, outside primary family (own Holm across 8)"
+standing,evaluator 1,Standing_Evaluator1,unadjusted,-0.866032,1.01103,-2.84762,1.11556,0.391677,92,1,"sensitivity, outside primary family (own Holm across 8)"
+standing,evaluator 1,Standing_Evaluator1,"adjusted age, sex, BMI",-0.550142,0.893841,-2.30204,1.20175,0.538238,92,1,"sensitivity, outside primary family (own Holm across 8)"
+standing,evaluator 2,Standing_Evaluator2,unadjusted,-0.60254,1.03301,-2.62719,1.42211,0.5597,92,1,"sensitivity, outside primary family (own Holm across 8)"
+standing,evaluator 2,Standing_Evaluator2,"adjusted age, sex, BMI",-0.262518,0.931456,-2.08814,1.5631,0.778069,92,1,"sensitivity, outside primary family (own Holm across 8)"

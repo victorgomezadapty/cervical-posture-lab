@@ -1,0 +1,5 @@
+position,cva_source,column,model,estimate,se_hc3,ci95_low,ci95_high,p,n,p_holm,family
+sitting,mean of evaluators,CVA_sitting_mean,unadjusted,-0.0263492,1.13331,-2.2476,2.1949,0.981451,92,1,primary (Holm across 4)
+sitting,mean of evaluators,CVA_sitting_mean,"adjusted age, sex, BMI",0.287422,1.07275,-1.81514,2.38998,0.788754,92,1,primary (Holm across 4)
+standing,mean of evaluators,CVA_standing_mean,unadjusted,-0.734286,1.01274,-2.71922,1.25065,0.468422,92,1,primary (Holm across 4)
+standing,mean of evaluators,CVA_standing_mean,"adjusted age, sex, BMI",-0.40633,0.902062,-2.17434,1.36168,0.652389,92,1,primary (Holm across 4)
