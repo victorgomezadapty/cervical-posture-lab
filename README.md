@@ -5,7 +5,10 @@ measured by two evaluators in sitting and standing, and neck pain scores in 92 y
 and without chronic neck pain.
 
 **Status: public.** The analysis repository is public at
-https://github.com/victorgomezadapty/cervical-posture-lab. Kaggle links will be added when they are live.
+https://github.com/victorgomezadapty/cervical-posture-lab.
+The same public re-analysis is on Kaggle.
+Dataset: https://www.kaggle.com/datasets/vctorandrsgmezlpez/forward-head-posture-with-and-without-neck-pain
+Notebook: https://www.kaggle.com/code/vctorandrsgmezlpez/cervical-posture-lab-cva-neck-pain-re-analysis
 
 ## About the name
 
